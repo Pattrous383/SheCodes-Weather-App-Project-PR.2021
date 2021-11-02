@@ -1,0 +1,49 @@
+body {
+  margin-top: 24px;
+}
+h1 {
+  text-align: center;
+  color: orange;
+  font-size: 36px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.header-icon {
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+}
+.footer-text {
+  text-align: right;
+  font-size: 10px;
+  color: orangered;
+  line-height: 24px;
+}
+.weather-icon {
+  font-size: 28px;
+}
+
+.col-2 {
+  background: #fff7eb;
+}
+
+.search-bar {
+  width: 26%;
+  border-radius: 15px;
+  border-color: orange;
+  border-width: 1px;
+  line-height: 30px;
+}

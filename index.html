@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-icon">🏜</div>
+      <h1>Your Weather App!</h1>
+      <br />
+      <form id="search-form">
+        <div class="mb-3">
+          <input
+            type="text"
+            placeholder="Which location are you searching for?"
+            class="search-bar"
+            autocomplete="off"
+            autofocus="on"
+            id="search-text-input"
+          />
+          <input type="submit" value="search" />
+        </div>
+      </form>
+
+      <button id="current-location">Search current location</button>
+
+      <h3 id="current-location-input"></h3>
+      <h2 id="current-time">Current Time</h2>
+      <br />
+      <div class="row">
+        <div class="col-4">
+          <div class="weather-icon">☁</div>
+          <h2>Current search:</h2>
+          <p id="current-city">Bogotá</p>
+          <br />
+          <h3>Temperature:</h3>
+          <p id="current-searched-temperature">16°C</p>
+          <h3>Rain probability:</h3>
+          <p>30%</p>
+        </div>
+        <div class="col-2">
+          <h2>Tomorrow</h2>
+          <p>Tues. 19</p>
+          <div class="weather-icon">⛅</div>
+          <h3>Temperature:</h3>
+          <p>18°C</p>
+          <h3>Rain probability:</h3>
+          <p>10%</p>
+        </div>
+        <div class="col-2">
+          <h2>Wednesday</h2>
+          <p>August 20</p>
+          <div class="weather-icon">🌤</div>
+
+          <h3>Temperature:</h3>
+          <p>18°C</p>
+          <h3>Rain probability:</h3>
+          <p>10%</p>
+        </div>
+        <div class="col-2">
+          <h2>Thursday</h2>
+          <p>August 21</p>
+          <div class="weather-icon">⛅</div>
+
+          <h3>Temperature:</h3>
+          <p>16°C</p>
+          <h3>Rain probability:</h3>
+          <p>10%</p>
+        </div>
+        <div class="col-2">
+          <h2>Friday</h2>
+          <p>August 22</p>
+          <div class="weather-icon">🌧</div>
+          <h3>Temperature:</h3>
+          <p>13°C</p>
+          <h3>Rain probability:</h3>
+          <p>90%</p>
+        </div>
+      </div>
+      <div class="row">
+        <span class="footer-text">Coded by Patricia Rodríguez</span>
+      </div>
+    </div>
+    <script src="src/js.js"></script>
+  </body>
+</html>
